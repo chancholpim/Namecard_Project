@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Request Namecard">ee00f8192fe8511071a8d8492799b696</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 13:07:55</sys_created_on>
+        <sys_id>fa00f8192fe8511071a8d8492799b69c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request Namecard</sys_name>
+        <sys_package display_value="Namecard" source="x_827039_namecard">ab379de22f54911071a8d8492799b62b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Namecard">ab379de22f54911071a8d8492799b62b</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_fa00f8192fe8511071a8d8492799b69c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 13:07:55</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Namecard">ab379de22f54911071a8d8492799b62b</application>
+        <file_path/>
+        <instance_id>a979ad2bdb62c4149df22f17d4961910</instance_id>
+        <instance_name>dev98447</instance_name>
+        <name>sc_cat_item_catalog_fa00f8192fe8511071a8d8492799b69c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Request Namecard">ee00f8192fe8511071a8d8492799b696</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-06 13:07:55</sys_created_on><sys_id>fa00f8192fe8511071a8d8492799b69c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Request Namecard</sys_name><sys_package display_value="Namecard" source="x_827039_namecard">ab379de22f54911071a8d8492799b62b</sys_package><sys_policy/><sys_scope display_value="Namecard">ab379de22f54911071a8d8492799b62b</sys_scope><sys_update_name>sc_cat_item_catalog_fa00f8192fe8511071a8d8492799b69c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-06 13:07:55</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1402581360</payload_hash>
+        <record_name>Service Catalog.Request Namecard</record_name>
+        <reverted_from/>
+        <source>7b379de22f54911071a8d8492799b62d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 13:07:56</sys_created_on>
+        <sys_id>7e00f8192fe8511071a8d8492799b69f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181d39fd4c20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 13:07:56</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>b600f81913e851104c4c415ccc97099f</update_guid>
+        <update_guid_history>b600f81913e851104c4c415ccc97099f:1402581360</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Request Namecard">be40f8192fe8511071a8d8492799b6e7</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 13:09:01</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>1b46131ae2ab43da834b1a6cbfe8aa09</sys_id>
+        <sys_metadata>fa00f8192fe8511071a8d8492799b69c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Request Namecard</sys_name>
+        <sys_package display_value="Namecard" source="x_827039_namecard">ab379de22f54911071a8d8492799b62b</sys_package>
+        <sys_parent display_value="">ee00f8192fe8511071a8d8492799b696</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Namecard">ab379de22f54911071a8d8492799b62b</sys_scope>
+        <sys_scope_delete display_value="">54e88f277e224b4bab703b8ad25e1021</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_fa00f8192fe8511071a8d8492799b69c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_fa00f8192fe8511071a8d8492799b69c">7e00f8192fe8511071a8d8492799b69f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 13:09:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

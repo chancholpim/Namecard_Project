@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="DELETE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description/>
+        <field>u_name_1</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>Namecard Getfullname</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '' || newValue == oldValue) {
+       return;
+    }
+    var getEmailAddr = new GlideAjax('GetEmailAddress');
+    getEmailAddr.addParam('sysparm_name','getEmail');
+    getEmailAddr.addParam('sysparm_userID', g_form.getValue('u_name_1'));
+    getEmailAddr.getXML(populateEmailField);
+    function populateEmailField(response){
+        var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+		g_form.clearValue('namecard_name');
+        g_form.setValue('namecard_name',emailFromScriptInclude);
+    }
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-06-30 02:40:09</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>db26eb872f18111071a8d8492799b6b5</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Namecard Getfullname</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Namecard" source="x_827039_namecard">ab379de22f54911071a8d8492799b62b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Namecard">ab379de22f54911071a8d8492799b62b</sys_scope>
+        <sys_update_name>sys_script_client_db26eb872f18111071a8d8492799b6b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 12:44:34</sys_updated_on>
+        <table>x_827039_namecard_namecard</table>
+        <type>onChange</type>
+        <ui_type>10</ui_type>
+        <view/>
+    </sys_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Namecard">ab379de22f54911071a8d8492799b62b</application>
+        <file_path/>
+        <instance_id>a979ad2bdb62c4149df22f17d4961910</instance_id>
+        <instance_name>dev98447</instance_name>
+        <name>sys_script_client_db26eb872f18111071a8d8492799b6b5</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field&gt;u_name_1&lt;/field&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Namecard Getfullname&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    if (isLoading || newValue === '' || newValue == oldValue) {
+       return;
+    }
+    var getEmailAddr = new GlideAjax('GetEmailAddress');
+    getEmailAddr.addParam('sysparm_name','getEmail');
+    getEmailAddr.addParam('sysparm_userID', g_form.getValue('u_name_1'));
+    getEmailAddr.getXML(populateEmailField);
+    function populateEmailField(response){
+        var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+		g_form.clearValue('namecard_name');
+        g_form.setValue('namecard_name',emailFromScriptInclude);
+    }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-06-30 02:40:09&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;db26eb872f18111071a8d8492799b6b5&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;Namecard Getfullname&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Namecard" source="x_827039_namecard"&gt;ab379de22f54911071a8d8492799b62b&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Namecard"&gt;ab379de22f54911071a8d8492799b62b&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_db26eb872f18111071a8d8492799b6b5&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-07-06 12:44:34&lt;/sys_updated_on&gt;&lt;table&gt;x_827039_namecard_namecard&lt;/table&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;10&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>10998412</payload_hash>
+        <record_name>Namecard Getfullname</record_name>
+        <reverted_from/>
+        <source>7b379de22f54911071a8d8492799b62d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 12:44:34</sys_created_on>
+        <sys_id>28bae0d12fe8511071a8d8492799b62c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181d38a71a20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 12:44:34</sys_updated_on>
+        <type>Client Script</type>
+        <update_guid>60bae0d11ee8511018dfd6710c40142c</update_guid>
+        <update_guid_history>60bae0d11ee8511018dfd6710c40142c:10998412,6bb4285d58a85110dbb88643e8a0c117:1604633250,a9c3601d6ca85110ae158bf79fff19ce:1534065696,4e473bcb9a581110ab33907e7541de1b:-1232452654,edb72b0f52181110dac7f34bdca7a945:1551968383,24d6af8b8d181110214acfba820a9cfe:-1232452654</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-06 12:46:07</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_client">sys_script_client</sys_db_object>
+        <sys_id>1f9a5034220f406c8cdcc57951414810</sys_id>
+        <sys_metadata>db26eb872f18111071a8d8492799b6b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Namecard Getfullname</sys_name>
+        <sys_package display_value="Namecard" source="x_827039_namecard">ab379de22f54911071a8d8492799b62b</sys_package>
+        <sys_parent display_value="namecard">ec7791262f54911071a8d8492799b61d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Namecard">ab379de22f54911071a8d8492799b62b</sys_scope>
+        <sys_scope_delete display_value="">54e88f277e224b4bab703b8ad25e1021</sys_scope_delete>
+        <sys_update_name>sys_script_client_db26eb872f18111071a8d8492799b6b5</sys_update_name>
+        <sys_update_version display_value="sys_script_client_db26eb872f18111071a8d8492799b6b5">28bae0d12fe8511071a8d8492799b62c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-06 12:46:07</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

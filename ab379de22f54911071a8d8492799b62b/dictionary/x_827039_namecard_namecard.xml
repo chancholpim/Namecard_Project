@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="task" label="namecard" max_length="40" name="x_827039_namecard_namecard" sizeclass="45" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Managers of this group are" max_length="40" name="managers_of_this_group" read_only="true" type="string"/>
+        <element attributes="encode_utf8=false" dependent="assignment_group" dependent_on_field="assignment_group" label="Managers of this group are" max_length="32" name="managers_of_this_groups" read_only="true" reference="sys_user" type="reference" use_dependent_field="true"/>
+        <element attributes="encode_utf8=false" label="Our manager is" mandatory="true" max_length="32" name="manager_1" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Name" max_length="40" name="namecard_name" type="string"/>
+        <element label="Phone" max_length="40" name="phone_1" type="integer"/>
+        <element attributes="encode_utf8=false" label="Phone" max_length="32" name="phone_reference_4" reference="cmdb_ci_ip_phone" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="phone_s1" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="phone_string_3" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Phone" max_length="40" name="phone_string_6" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="requested_for_email" type="string" use_dependent_field="true"/>
+        <element attributes="edge_encryption_enabled=true" label="Convenient time" mandatory="true" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+        <element attributes="encode_utf8=false" label="Name user" mandatory="true" max_length="32" name="u_name_1" reference="sys_user" type="reference"/>
+        <element attributes="encode_utf8=false" label="email" max_length="32" name="u_reference_5" reference="email_access_restriction" type="reference"/>
+        <element attributes="encode_utf8=false" label="New Reference" max_length="32" name="u_reference_8" reference="cmdb_ci_appl_dot_net" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Status" max_length="40" name="u_string_1" read_only="true" type="string"/>
+    </element>
+</database>

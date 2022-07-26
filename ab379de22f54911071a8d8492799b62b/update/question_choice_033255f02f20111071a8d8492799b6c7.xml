@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>2</order>
+        <published_ref display_value="Issue with email">55a094ec2f60511071a8d8492799b6bb</published_ref>
+        <question display_value="Short description">f23255f02f20111071a8d8492799b6b3</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-05 02:20:21</sys_created_on>
+        <sys_id>033255f02f20111071a8d8492799b6c7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Issue with email</sys_name>
+        <sys_package display_value="Namecard" source="x_827039_namecard">ab379de22f54911071a8d8492799b62b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Namecard">ab379de22f54911071a8d8492799b62b</sys_scope>
+        <sys_update_name>question_choice_033255f02f20111071a8d8492799b6c7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-05 02:20:21</sys_updated_on>
+        <text>Issue with email</text>
+        <value>Issue with email</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=033255f02f20111071a8d8492799b6c7"/>
+</record_update>

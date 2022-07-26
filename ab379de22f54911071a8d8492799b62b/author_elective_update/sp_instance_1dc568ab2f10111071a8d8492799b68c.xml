@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">5783246b2f10111071a8d8492799b62a</sp_column>
+        <sp_widget display_value="Test Context">07087c30ff223100ba13ffffffffff08</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-01 01:53:40</sys_created_on>
+        <sys_id>1dc568ab2f10111071a8d8492799b68c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Namecard" source="x_827039_namecard">ab379de22f54911071a8d8492799b62b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Namecard">ab379de22f54911071a8d8492799b62b</sys_scope>
+        <sys_update_name>sp_instance_1dc568ab2f10111071a8d8492799b68c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-01 01:53:40</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="DELETE" query="documentkey=1dc568ab2f10111071a8d8492799b68c"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Namecard">ab379de22f54911071a8d8492799b62b</application>
+        <file_path/>
+        <instance_id>a979ad2bdb62c4149df22f17d4961910</instance_id>
+        <instance_name>dev98447</instance_name>
+        <name>sp_instance_1dc568ab2f10111071a8d8492799b68c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance"><sp_instance action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><glyph/><id/><order>1</order><roles/><short_description/><size>md</size><sp_column display_value="1">5783246b2f10111071a8d8492799b62a</sp_column><sp_widget display_value="Test Context">07087c30ff223100ba13ffffffffff08</sp_widget><sys_class_name>sp_instance</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-07-01 01:53:40</sys_created_on><sys_id>1dc568ab2f10111071a8d8492799b68c</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Namecard" source="x_827039_namecard">ab379de22f54911071a8d8492799b62b</sys_package><sys_policy/><sys_scope display_value="Namecard">ab379de22f54911071a8d8492799b62b</sys_scope><sys_update_name>sp_instance_1dc568ab2f10111071a8d8492799b68c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-07-01 01:53:40</sys_updated_on><title/><url/><widget_parameters/></sp_instance><sys_translated_text action="delete_multiple" query="documentkey=1dc568ab2f10111071a8d8492799b68c"/></record_update>]]></payload>
+        <payload_hash>932847299</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>7b379de22f54911071a8d8492799b62d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-01 01:53:40</sys_created_on>
+        <sys_id>99c568ab2f10111071a8d8492799b68e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>181b776bc760000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-01 01:53:40</sys_updated_on>
+        <type>Instance</type>
+        <update_guid>d1c568abbc1011104ad3f9f108b8598e</update_guid>
+        <update_guid_history>d1c568abbc1011104ad3f9f108b8598e:932847299</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">9ac5e4eb2f10111071a8d8492799b643</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-07-01 01:53:45</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance">sp_instance</sys_db_object>
+        <sys_id>3db5b362d62848aba512a30b681b13e1</sys_id>
+        <sys_metadata>1dc568ab2f10111071a8d8492799b68c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Namecard" source="x_827039_namecard">ab379de22f54911071a8d8492799b62b</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Namecard">ab379de22f54911071a8d8492799b62b</sys_scope>
+        <sys_scope_delete display_value="">54e88f277e224b4bab703b8ad25e1021</sys_scope_delete>
+        <sys_update_name>sp_instance_1dc568ab2f10111071a8d8492799b68c</sys_update_name>
+        <sys_update_version display_value="sp_instance_1dc568ab2f10111071a8d8492799b68c">99c568ab2f10111071a8d8492799b68e</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-07-01 01:53:45</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
